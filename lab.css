@@ -1,0 +1,18 @@
+.button{
+    color:#000000;
+    padding: 20px;
+    margin: 5px;
+    background-color: #efc5f3;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.buttons{
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
