@@ -18,6 +18,7 @@ function getValidNumber(promptMessage) {
         console.log("Будь ласка, введіть правильне число (додатнє значення).");
     }
 }
+
 //Функція для формування повідомлення про доставку (Куди і загальна вартість(вартість товару,вартість доставки))
 function getShippingMessage(country, price, deliveryFee){
     return `Доставка до ${country} загальна вартість ${price + deliveryFee} кредитів`;
