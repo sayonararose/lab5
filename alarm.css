@@ -4,16 +4,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-
+    background-image: url(cbt10.jpg);
+    color: #fcfcfc;
   }
   
   .alarm-container {
     text-align: center;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
   }
   
   button {
@@ -21,6 +22,7 @@ body {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    background-color: rgb(243, 201, 253);
   }
   
   #status {
