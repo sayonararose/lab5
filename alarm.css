@@ -24,8 +24,3 @@ body {
     cursor: pointer;
     background-color: rgb(243, 201, 253);
   }
-  
-  #status {
-    margin-top: 20px;
-    font-size: 18px;
-  }
