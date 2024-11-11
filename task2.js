@@ -1,6 +1,6 @@
 // Функція для отримання даних від користувача 
 function userInput() {
-    let quantity = Number(prompt('Введіть кількість замовлених дронів'));
+    let quantity = Number(prompt('Введіть кількість замовлених дроїдів'));
     let pricePerDroid = Number(prompt('Введіть ціну одного дроїда'));
     let customerCredits = Number(prompt('Введіть суму коштів на рахунку клієнта'));
     
