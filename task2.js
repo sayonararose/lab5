@@ -16,6 +16,6 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
     if (totalPrice > customerCredits) {
         return "Insufficient funds! (Недостатньо коштів!)"; // Повідомлення про недостатність коштів
     } else {
-        return `You ordered(Ваше замовлення) ${quantity} droids(дроїди) worth(вартість) ${totalPrice} credits!`; // Виправлено форматування рядка
+        return `You ordered(Ваше замовлення) ${quantity} droids(дроїди) worth(вартість) ${totalPrice} credits!`; 
     }
 }
