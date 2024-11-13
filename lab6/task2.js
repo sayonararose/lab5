@@ -6,7 +6,7 @@
 const products = {
     1: { name: "Laptop", price: 1000, description: "High-performance laptop" },
     2: { name: "Phone", price: 500, description: "Smartphone with a great camera" },
-    3: { name: "Tablet", price: 300, description: "Tablet for work " }
+    3: { name: "Tablet", price: 300, description: "Tablet for work" }
   };
   
   // Функція для отримання деталей товару
