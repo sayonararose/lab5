@@ -30,7 +30,6 @@ const medicines = [
 
 const result = applyDiscount(medicines);
 
-// Виведення кожного елемента у рядковому форматі
 result.forEach(item => {
     console.log(`ID: ${item.id}, Назва: ${item.name}, Ціна зі знижкою: ${item.price} грн`);
 });

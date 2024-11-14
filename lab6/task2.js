@@ -11,7 +11,7 @@ const products = {
   
   // Функція для отримання деталей товару
   function getProductDetails(productId, successCallback, errorCallback) {
-    const product = products[productId]; // Знаходимо товар за ідентифікатором
+    const product = products[productId]; 
     
     if (product) {
       successCallback(product); // Викликаємо successCallback з деталями товару

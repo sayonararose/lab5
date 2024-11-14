@@ -24,11 +24,10 @@ const concerts = {
 // Отримання масиву лише імен міст
 const cityNames = Object.keys(concerts);
 
-// Фільтрація міст, в яких концерт вже пройшов
+// Фільтрація міст, в яких концерт ще не пройшли
 const upcomingCities = cityNames.filter(city => concerts[city] > new Date());
 
 // Сортування міст у хронологічному порядку
 const sortedCities = upcomingCities.sort((city1, city2) => concerts[city1] - concerts[city2]);
 
-// Виведення результату у консоль
 console.log(sortedCities);

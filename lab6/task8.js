@@ -5,7 +5,7 @@
 
 // Функція-конструктор Storage для управління складом товарів
 function Storage(initialItems) {
-    this.items = initialItems; // Записуємо початковий масив товарів у властивість items
+    this.items = initialItems; 
   }
   
   // Метод для отримання всіх товарів на складі
@@ -15,15 +15,15 @@ function Storage(initialItems) {
   
   // Метод для додавання нового товару до складу
   Storage.prototype.addItem = function(item) {
-    this.items.push(item); // Додаємо новий товар до масиву items
+    this.items.push(item); 
   };
   
   // Метод для видалення товару зі складу
   Storage.prototype.removeItem = function(item) {
-    const index = this.items.indexOf(item); // Знаходимо індекс товару
+    const index = this.items.indexOf(item); 
   
     if (index !== -1) { // Якщо товар знайдено
-      this.items.splice(index, 1); // Видаляємо товар з масиву items
+      this.items.splice(index, 1); // Видаляємо товар 
     }
   };
   
