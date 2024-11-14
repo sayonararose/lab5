@@ -12,7 +12,7 @@ function checkBrackets(str) {
     };
   
     for (let char of str) {
-      // Якщо символ є відкривною дужкою, додаємо його в стек
+      // Якщо символ є відкривною дужкою
       if (brackets[char]) {
         stack.push(char);
       }
@@ -25,7 +25,7 @@ function checkBrackets(str) {
       }
     }
   
-    /// Повертаємо true, якщо стек порожній (всі дужки закриті правильно)
+    /// Повертаємо true (всі дужки закриті правильно)
     return stack.length === 0;
   }
   
