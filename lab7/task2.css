@@ -1,0 +1,22 @@
+ button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(243, 201, 253);
+  }
+
+ input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
