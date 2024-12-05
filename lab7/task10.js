@@ -51,7 +51,7 @@ function createBoxes() {
 // Функція очищення колекції
 function destroyBoxes() {
     const boxesContainer = document.getElementById('boxes');
-    boxesContainer.innerHTML = ''; // Очищення колекції
+    boxesContainer.innerHTML = ''; 
 }
 
 
