@@ -48,7 +48,7 @@ function createBoxes() {
     }
 }
 
-// Функція очищення колекції
+// Функція очищення 
 function destroyBoxes() {
     const boxesContainer = document.getElementById('boxes');
     boxesContainer.innerHTML = ''; 
