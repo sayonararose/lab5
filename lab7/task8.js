@@ -19,13 +19,13 @@
       return;
     }
   
-    // Збираємо дані у об'єкт
+    // Збираємо дані 
     const formData = {
       email: email,
       password: password,
     };
   
-    console.log(formData); // Виводимо об'єкт у консоль
+    console.log(formData); // Виводимо у консоль
   
     form.reset();
   });

@@ -54,7 +54,7 @@ function destroyBoxes() {
     boxesContainer.innerHTML = ''; // Очищення колекції
 }
 
-// Додаємо обробники подій для кнопок
+
 document.querySelector('[data-create]').addEventListener('click', createBoxes);
 document.querySelector('[data-destroy]').addEventListener('click', destroyBoxes);
 
