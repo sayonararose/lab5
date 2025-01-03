@@ -27,7 +27,7 @@ function Storage(initialItems) {
     }
   };
   
-  // Приклад використання
+  
   const arr = ["apple", "banana", "mango"];
   const storage = new Storage(arr);
   

@@ -25,7 +25,7 @@
       password: password,
     };
   
-    console.log(formData); // Виводимо у консоль
+    console.log(formData);
   
     form.reset();
   });

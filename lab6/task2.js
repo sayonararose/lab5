@@ -20,7 +20,7 @@ const products = {
     }
   }
   
-  // Приклади використання
+  
   getProductDetails(2, 
     (product) => console.log("Product details:", product), 
     (error) => console.error("Error:", error)

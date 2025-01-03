@@ -29,6 +29,5 @@ function checkBrackets(str) {
     return stack.length === 0;
   }
   
-  // Приклади використання
   console.log(checkBrackets("function test() { return [1, 2, 3]; }")); // true
   console.log(checkBrackets("function test() { return [1, 2, 3; }"));   // false
